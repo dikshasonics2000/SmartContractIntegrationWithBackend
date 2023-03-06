@@ -1,0 +1,359 @@
+{
+	"info": {
+		"_postman_id": "9650a34a-4bcb-494f-aafa-87934f285cc9",
+		"name": "StudentDetails",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26194138"
+	},
+	"item": [
+		{
+			"name": "getDetailsPostRequest",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "admNo",
+									"value": "189",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3000/getDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"getDetails"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "23"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17-3NU0Q3Dhyrf2ssQ+34Z/cO7oYoY\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 06 Mar 2023 11:17:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"Diksha\",\n    \"soni\",\n    \"189\"\n]"
+				}
+			]
+		},
+		{
+			"name": "homePage",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3000/",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Mon, 06 Mar 2023 06:36:32 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"205-186b5a2d3e8\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "517"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 06 Mar 2023 11:09:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title></title>\n    </head>\n    <body>\n        <form action=\"/setDetails\" method=\"post\">\n            <label for=\"firstName\">firstName</label>\n            <input type=\"text\" name=\"firstName\" />\n            <label for=\"scndName\">scndName</label>\n            <input type=\"text\" name=\"scndName\" />\n            <label for=\"admNo\">admNo</label>\n            <input type=\"number\" name=\"admNo\" />\n            <button type=\"submit\" name=\"\" value=\"\">submit</button>\n        </form>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "getDetail",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3000/getDetail",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"getDetail"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "public, max-age=0"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Mon, 06 Mar 2023 06:53:06 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"158-186b5b1fcf0\""
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "344"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 06 Mar 2023 11:15:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title></title>\n    </head>\n    <body>\n        <form action=\"/getDetails\" method=\"post\">\n            <label for=\"admNo\">getInfo</label>\n            <input type=\"number\" name=\"admNo\" />\n            <button type=\"submit\" name=\"\" value=\"\">submit</button>\n        </form>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "SetDetails",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "firstName",
+									"value": "Diksha",
+									"type": "text"
+								},
+								{
+									"key": "scndName",
+									"value": "soni",
+									"type": "text"
+								},
+								{
+									"key": "admNo",
+									"value": "190",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3000/setDetails",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"setDetails"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "927"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"39f-w476RWG1gIBGcSQw6K4FvE7PHb0\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 06 Mar 2023 11:21:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"transactionHash\": \"0x5b8cc64287bdc2419ff8ccc860593a8ad2ad60994a25ad3a2adb4a0be845378a\",\n    \"transactionIndex\": 0,\n    \"blockHash\": \"0xd5493a17700ef50f43054a9107638bb0a496ae01aad093f60c1978dafb509ff1\",\n    \"blockNumber\": 21,\n    \"from\": \"0x208965eaf92e25c87ad9bac7aa86f019e49320f8\",\n    \"to\": \"0xfa4dfb7f76c586bd0304fb1a95efd7d5adeec5da\",\n    \"gasUsed\": 37459,\n    \"cumulativeGasUsed\": 37459,\n    \"contractAddress\": null,\n    \"logs\": [],\n    \"status\": true,\n    \"logsBloom\": \"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\"\n}"
+				}
+			]
+		}
+	]
+}
